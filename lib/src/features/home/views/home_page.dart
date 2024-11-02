@@ -23,8 +23,13 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     _accountViewModel.loadAccounts();
     _accountViewModel.getShoppingById(1);
-    _itemKeys = List.generate(_accountViewModel.accounts.value.length, (index) => GlobalKey());
+    Future.delayed(const Duration(seconds: 3)).then((e) {
+     updateItemKeys();
+
     _scrollController.addListener(_onScroll);
+    });
+
+   
   }
 
   @override
@@ -64,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                       child: ValueListenableBuilder<List<AccountModel>>(
                         valueListenable: _accountViewModel.accounts,
                         builder: (context, accounts, child) {
-                          if (accounts.isEmpty) {
+                          if (accounts.isEmpty || _itemKeys.isEmpty) {
                             return const Center(
                               child: CircularProgressIndicator(),
                             );
@@ -177,5 +182,11 @@ class _HomePageState extends State<HomePage> {
 
   void onItemInFocus(int index) {
     _accountViewModel.getShoppingById(index + 1);
+  }
+
+  void updateItemKeys() {
+    setState(() {
+      _itemKeys = List.generate(_accountViewModel.accounts.value.length, (index) => GlobalKey());
+    });
   }
 }
