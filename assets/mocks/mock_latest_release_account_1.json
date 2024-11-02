@@ -1,0 +1,59 @@
+[
+    {
+        "day": "Hoje, 01 Nov",
+        "shopping": [
+            {
+                "icon": "assets/icons/phone.png",
+                "name": "Samsung",
+                "buy_date": "10/09 às 20:00",
+                "value": "R$ 100,50",
+                "amount_parcel": 5
+            },
+            {
+                "icon": "assets/icons/car.png",
+                "name": "Uber*Trip",
+                "buy_date": "08/09 às 15:00",
+                "value": "R$ 34,50",
+                "amount_parcel": 1
+            }
+        ]
+    },
+    {
+        "day": "03 Set",
+        "shopping": [
+            {
+                "icon": "assets/icons/phone.png",
+                "name": "Apple",
+                "buy_date": "07/08 às 21:06",
+                "value": "R$ 300,50",
+                "amount_parcel": 1
+            },
+            {
+                "icon": "assets/icons/car.png",
+                "name": "Uber*Trip",
+                "buy_date": "05/08 às 20:06",
+                "value": "R$ 3,50",
+                "amount_parcel": 8
+            }
+        ]
+    },
+    {
+        "day": "02 Ago",
+        "shopping": [
+            {
+                "icon": "assets/icons/car.png",
+                "name": "Uber*Trip*Uber",
+                "buy_date": "05/07 às 10:06",
+                "value": "R$ 48,00",
+                "amount_parcel": 10
+            },
+            {
+                "icon": "assets/icons/shop_car.png",
+                "name": "Supermercados Hiper",
+                "buy_date": "04/06 às 20:06",
+                "value": "R$ 200,00",
+                "amount_parcel": 2
+            }
+        ]
+    }
+]

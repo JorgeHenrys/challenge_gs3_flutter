@@ -1,0 +1,21 @@
+[
+    {
+        "day": "05 Set",
+        "shopping": [
+            {
+                "icon": "assets/icons/phone.png",
+                "name": "Motorola Cel",
+                "buy_date": "20/09 às 11:00",
+                "value": "R$ 800,50",
+                "amount_parcel": 12
+            },
+            {
+                "icon": "assets/icons/car.png",
+                "name": "Uber*Trip",
+                "buy_date": "20/09 às 08:40",
+                "value": "R$ 14,50",
+                "amount_parcel": 1
+            }
+        ]
+    }
+]

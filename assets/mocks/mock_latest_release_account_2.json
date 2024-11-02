@@ -1,0 +1,40 @@
+[
+    {
+        "day": "Hoje, 01 Nov",
+        "shopping": [
+            {
+                "icon": "assets/icons/shop_car.png",
+                "name": "Campeonato Brasileiro",
+                "buy_date": "10/09 às 17:06",
+                "value": "R$ 3.000,30",
+                "amount_parcel": 24
+            },
+            {
+                "icon": "assets/icons/car.png",
+                "name": "Uber*Trip",
+                "buy_date": "05/09 às 20:06",
+                "value": "R$ 34,50",
+                "amount_parcel": 1
+            }
+        ]
+    },
+    {
+        "day": "10 Out",
+        "shopping": [
+            {
+                "icon": "assets/icons/car.png",
+                "name": "Uber*Trip",
+                "buy_date": "05/10 às 20:06",
+                "value": "R$ 34,50",
+                "amount_parcel": 1
+            },
+            {
+                "icon": "assets/icons/car.png",
+                "name": "Uber*Trip",
+                "buy_date": "05/08 às 20:06",
+                "value": "R$ 34,50",
+                "amount_parcel": 1
+            }
+        ]
+    }
+]

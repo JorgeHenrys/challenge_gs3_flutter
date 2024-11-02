@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "last_numbers": "3234",
+        "name": "GS3 TEC",
+        "available_limit": "R$ 7.867,80",
+        "buy_best_day": 20,
+        "color_card_light_hex": "#2B66BC",
+        "color_card_dark_hex": "#132D55"
+    },
+    {
+        "id": 2,
+        "last_numbers": "1299",
+        "name": "Nubanco",
+        "available_limit": "R$ 2.500,90",
+        "buy_best_day": 13,
+        "color_card_light_hex": "#D030CD",
+        "color_card_dark_hex": "#9A3398"
+    },
+    {
+        "id": 3,
+        "last_numbers": "0239",
+        "name": "Inteú",
+        "available_limit": "R$ 10.000,00",
+        "buy_best_day": 5,
+        "color_card_light_hex": "#005153",
+        "color_card_dark_hex": "#005153"
+    }
+]
